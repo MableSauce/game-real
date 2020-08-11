@@ -1,0 +1,31 @@
+<!doctype html>   
+
+<html>
+
+<head><title>seven Boom</title></head>
+    
+    <body>
+    
+    <h1>even Boom</h1>
+    <script>
+        
+      function sevenBoom(arr) {
+    for(let pop of arr) {
+        if(pop.toString().split('').includes('7')) {
+            return "Boom!"
+        }
+    }
+    return "there is no 7 in the array"
+}
+
+console.log(sevenBoom([2, 6, 7, 9, 3]));    
+console.log(sevenBoom([33, 68, 400, 5]));
+console.log(sevenBoom([86, 48, 100, 66]));
+console.log(sevenBoom([76, 55, 44, 32]));
+console.log(sevenBoom([35, 4, 9, 37]));
+console.log(sevenBoom([35, 4, 9, 38,1,45,68,07]));        
+        
+        </script>
+        
+    </body>
+</html>
